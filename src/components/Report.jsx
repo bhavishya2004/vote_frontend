@@ -23,6 +23,16 @@ const Report = () => {
     <>
     <h1 className="slogan">Your Voice, Your Vote, Our Future</h1>
 
+
+    <button className="button-73"
+          onClick={() => {
+            navigate("/Voting");
+          }}
+        >
+          Voting
+        </button>
+
+
         <button className="button-73"
           onClick={() => {
             navigate("/Vote");
@@ -38,6 +48,9 @@ const Report = () => {
         >
       Candidate
         </button>
+
+
+
         
    
 

@@ -12,13 +12,7 @@ const Main = () => {
   return (
     <>
       
-        <button className="button-73"
-          onClick={() => {
-            navigate("/Voting");
-          }}
-        >
-          Voting
-        </button>
+    
 
         <button className="button-73"
           onClick={() => {
@@ -39,7 +33,7 @@ const Main = () => {
 
  
 
-        <h1 className="main">Change We Can Believe In Begins with Your Vote</h1>
+        <h1 className="main">Empower Democracy, Vote with Precision!</h1>
 
     </>
   );

@@ -35,7 +35,7 @@ function Login() {
           if (response.data === "success") {
             localStorage.setItem("vName", username);
             checkStatus();
-            // navigate('/Report')
+            navigate('/Report')
           } else {
             alert(response.data);
           }
