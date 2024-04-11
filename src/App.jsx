@@ -31,16 +31,10 @@ const App = () => {
 <Route path= "/VaddData" element={ <VaddData />} />
     <Route path= "/Vupdate/:id" element={ <Vupdate />} />
 
-
-
-
     <Route path= "/Candidate" element={ <Candidate />} />
 <Route path= "/CaddData" element={ <CaddData />} />
     <Route path= "/Cupdate/:id" element={ <Cupdate />} />
 
-   
-   
-    
     
 </Routes>
     </BrowserRouter>
